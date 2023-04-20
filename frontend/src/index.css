@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background: #e2e1e1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input:is(:-webkit-autofill, :webkit-autofill-focus) {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: rgb(196, 66, 66);
+}
+
+.yellow {
+    background-color: rgb(230, 216, 98);
+}
+
+.blue {
+    background-color: rgb(77, 134, 209);
+}
+
+.purple {
+    background-color: rgb(174, 44, 186);
+}
+
+.pink {
+    background-color: rgb(241, 108, 197);
+}
+
+.orange {
+    background-color: rgb(207, 114, 43);
+}
+
+.gray {
+    background-color: rgb(95, 89, 85);
+}

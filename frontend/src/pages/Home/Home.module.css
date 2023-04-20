@@ -1,0 +1,16 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.inner-main {
+    flex-grow: 1;
+    background: #fff;
+    flex-grow: 1;
+    max-width: 1500px;
+    box-shadow: 1px 1px 16px 2px #00000076;
+    display: flex;
+}

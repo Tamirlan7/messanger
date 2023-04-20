@@ -1,0 +1,53 @@
+.users {
+    height: calc(100% - 60px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    transition: .1s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.user:hover {
+    background-color: #dadce099;
+}
+
+.username {
+    align-self: flex-start;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.users::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px  #fff;
+	border-radius: 0px;
+	background-color:  #fff;
+}
+
+.users::-webkit-scrollbar
+{
+    height: 5px;
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.container::-webkit-scrollbar-button {
+    height: 10px;
+}
+
+.users::-webkit-scrollbar-thumb
+{
+	background-color: rgba(0,0,0,.3);
+}

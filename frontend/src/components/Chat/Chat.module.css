@@ -1,0 +1,138 @@
+.section {
+    flex-grow: 1;
+}
+
+.no-friend-section {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #d1d7db;
+}
+
+.inner-no-friend-section {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upper {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f2f5;
+    height: 60px;
+    border-left: 1px solid #d1d7db;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.username {
+    font-size: 20px;
+    pointer-events: none;
+    font-weight: 400;
+}
+
+.chat {
+    height: calc(100% - (60px * 2));
+    background-image: url('../../assets/wallpaper.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chat::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px  #fff;
+	border-radius: 0px;
+	background-color:  #fff;
+}
+
+.chat::-webkit-scrollbar
+{
+    height: 5px;
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.container::-webkit-scrollbar-button {
+    height: 10px;
+}
+
+.chat::-webkit-scrollbar-thumb
+{
+	background-color: rgba(0,0,0,.3);
+}
+
+.input-block {
+    background: #e9edef;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.friend-message-wrapper {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.friend-message {
+    max-width: 480px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 1px 1px 10px 2px #3b4a545a;
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+
+.my-message-wrapper {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: flex-end;
+}
+
+.my-message {
+    max-width: 480px;
+    background-color: #d9fdd3;
+    box-shadow: 1px 1px 10px 2px #3b4a545a;
+    width: auto;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+
+.input {
+    margin: 0 20px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #3b4a54;
+    max-width: 900px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
