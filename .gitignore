@@ -1,4 +1,0 @@
-./frontend/node_modules
-./backend/venv
-./.idea
-./db.sqlite3
